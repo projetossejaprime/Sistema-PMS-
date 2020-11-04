@@ -158,22 +158,11 @@ section{
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
-/* 
-    background: url(../images/gif-hotel-s2.gif) 0 0 no-repeat; */
+    background: url(../images/gif-s2.gif) center no-repeat;
+    background-size: 100%;
+
     height: 90vh;
 }
-    .gif-s2:hover{
-        animation-play-state: paused;
-    }
-
-    @keyframes hotel-gif {
-        0% {
-          background-position: 0%;
-        }
-        100% {
-          background-position: 100%;
-        }
-      }
 
 .section-2 .texto-s2{
     display: flex !important;
