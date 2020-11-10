@@ -2351,12 +2351,218 @@ section{
 
 /* Telas Pequenas */
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1340px){
-
+    .section-1 .texto-s1 h1{
+        font-size: 2rem !important;
+    }
 }
 
 /* Telas Maiores*/
 @media only screen  and (min-width : 1824px) {
+    .row,
+    section{
+        height: auto !important;
+        max-height: unset !important;
+        min-height: unset !important;
+    }
 
+    /* Seção 1 */
+
+    .section-1{
+        background-color: var(--primaria);
+        background-image: url(../images/bg-section-1.png);
+        background-size: cover;
+    }
+
+    .section-1 .texto-s1{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+
+        height: 100vh;
+
+        padding-left: 100px;
+    }
+
+    .section-1 .imagem-s1{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+        
+        height: 100vh;
+    }
+
+    /* Seção 2 */
+
+    .section-2 .gif-s2{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-2 .texto-s2{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 3 */
+
+    .section-3 .imagem-s3{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-3 .texto-s3{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 4 */
+
+    .section-4 .imagem-s4{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-4 .texto-s4{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 5 */
+
+    .section-5 .imagem-s5{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-5 .texto-s5{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 6 */
+
+    .section-6 .imagem-s6{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-6 .texto-s6{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 7 */
+
+    .section-7 .imagem-s7{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-7 .texto-s7{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 8 */
+        
+    .section-8{
+        max-height: unset !important;
+    }
+
+    .section-8 .titulo-s8{
+        margin-bottom: 50px;
+    }
+
+    /* Seção 9 */
+
+    .section-9 .imagem-s9{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-9 .texto-s9{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 10 */
+
+    .section-10 .imagem-s10{
+        height: 100vh;
+        max-height: 700px !important;
+    }
+
+    .section-10 .texto-s10{
+        height: 100vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 11 */
+
+    .section-11 .imagem-s11{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-11 .texto-s11{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 12 */
+
+    .section-12{
+        min-height: 300px !important;
+    }
+
+    .section-12 .titulo-s12{
+        height: auto;
+        min-height: 300px !important;
+    }
+
+    /* Seção 13 */
+
+    .section-13 .imagem-s13{
+        height: 90vh;
+        max-height: 620px !important;
+    }
+
+    .section-13 .texto-s13{
+        height: 90vh;
+        max-height: 620px !important;
+    }
+
+    /* Seção 14 */
+
+    .section-14 .imagem-s14{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-14 .texto-s14{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 15 */
+
+    .section-15 .imagem-s15{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    .section-15 .texto-s15{
+        height: 90vh;
+        max-height: 700px !important;
+    }
+
+    /* Seção 16 */
+
+    .section-16 .titulo-s16{
+        max-height: 700px !important;
+    }
 }
     
 
